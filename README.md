@@ -1,2 +1,2 @@
 # Linux
-# Random notes
+# notes
