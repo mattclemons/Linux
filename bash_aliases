@@ -1,5 +1,4 @@
-alias find='find . -type f -name '
-alias findall='find / -type f -name '
+alias find='find / -type f -name '
 alias wireshark='wireshark-gtk'
 alias c='clear'
 alias g++='g++ -std=c++11'
