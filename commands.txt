@@ -1,0 +1,10 @@
+Things i can never remember.
+
+
+
+# Prefix test to every line in a file
+awk -v PRE='wget --no-check-certificate https://site.to.add.com' '{$0=PRE$0; print}' wget2.sh > wget3.sh
+
+
+# strip 6 chars from front of a file and rename
+for file in *; do mv "$file" "${file:6}"; done
